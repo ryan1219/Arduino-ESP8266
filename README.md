@@ -1,7 +1,4 @@
 # Arduino-ESP8266
-<<<<<<< HEAD
-buid up TCP connection two esp8266 by using arduino.
-send data
-=======
-Arduino ESP8266
->>>>>>> origin/master
+This project is to buid up TCP connection between two esp8266 modules and test the transmission speed and reliability
+Project involved coding in two versions of firmwares, Arduino and NodeMCU.
+Performed tests in two firmwares separately.
