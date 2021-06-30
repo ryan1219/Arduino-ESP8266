@@ -1,5 +1,5 @@
-const int SLEEP = 1; // sleep time, unit: hour
-const int WORK = 5;  // work time, unit: minute
+const long SLEEP = 12; // sleep time, unit: hour
+const long WORK = 30;  // work time, unit: second
 
 const unsigned long SECOND = 1000;
 const unsigned long MINUTE = 60 * SECOND;
@@ -15,7 +15,7 @@ void setup()
 void loop()
 {
   digitalWrite(LED_BUILTIN, HIGH); // turn the LED on (HIGH is the voltage level)
-  delay(WORK * MINUTE);
+  delay(WORK * SECOND);
   digitalWrite(LED_BUILTIN, LOW); // turn the LED off by making the voltage LOW
   delay(SLEEP * HOUR);
 }
